@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfnycpayroll-apoorva-r"
+		},
+		"LS_ADLS_NYC_Payroll_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_NYC_Payroll_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_NYC_Payroll_properties_typeProperties_url": {
+			"value": "https://adlsnycpayrollapoorvar.dfs.core.windows.net/"
+		},
+		"LS_Synapse_NYC_Payroll_properties_typeProperties_server": {
+			"value": "synnycpayroll-apoorva-r-ondemand.sql.azuresynapse.net"
+		},
+		"LS_Synapse_NYC_Payroll_properties_typeProperties_database": {
+			"value": "udacity"
+		}
+	}
+}
