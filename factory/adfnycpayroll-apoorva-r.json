@@ -1,0 +1,15 @@
+{
+	"name": "adfnycpayroll-apoorva-r",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6e1e32cb-c21b-4dea-aaa9-a8ee424a38d7",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
